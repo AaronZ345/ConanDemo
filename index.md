@@ -25,9 +25,7 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
   </thead>
 
   <tbody>
-    <!-- top row: Target + (Ref / Res / Res) for pair #1 -->
     <tr>
-      <!-- Target spans all three reference/result rows -->
       <td rowspan="3" style="text-align: center; vertical-align:middle;">
         <audio controls style="width: 150px;">   <!-- 90 % looks nice on wide tables -->
           <source src="wavs/Change_Spks/eg1/p226_191_mic2.wav" type="audio/wav">
@@ -105,9 +103,7 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
   </thead>
 
   <tbody>
-    <!-- top row: Target + (Ref / Res / Res) for pair #1 -->
     <tr>
-      <!-- Target spans all three reference/result rows -->
       <td rowspan="3" style="text-align: center; vertical-align:middle;">
         <audio controls style="width: 150px;">   <!-- 90 % looks nice on wide tables -->
           <source src="wavs/Change_Spks/eg2/target.wav" type="audio/wav">
@@ -184,9 +180,7 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
   </thead>
 
   <tbody>
-    <!-- top row: Target + (Ref / Res / Res) for pair #1 -->
     <tr>
-      <!-- Target spans all three reference/result rows -->
       <td rowspan="3" style="text-align: center; vertical-align:middle;">
         <audio controls style="width: 150px;">   <!-- 90 % looks nice on wide tables -->
           <source src="wavs/Change_Spks/eg3/p231_145_mic2.wav" type="audio/wav">
@@ -264,9 +258,7 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
   </thead>
 
   <tbody>
-    <!-- top row: Target + (Ref / Res / Res) for pair #1 -->
     <tr>
-      <!-- Target spans all three reference/result rows -->
       <td rowspan="3" style="text-align: center; vertical-align:middle;">
         <audio controls style="width: 150px;">   <!-- 90 % looks nice on wide tables -->
           <source src="wavs/Change_Spks/eg4/p360_057_mic2.wav" type="audio/wav">
@@ -334,7 +326,7 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
 # Cross-dataset Comparison
 We then demonstrate the cross-dataset performance of our method. During streaming inference, the entire reference speech is first fed into the model to provide timbre and stylistic information. For chunk-wise online inference, the input is processed once it reaches a predefined chunk size before being passed to the model.
 
-In this experiment, speech from VCTK is used as the target speaker, while speech from LibriTTS serves as the source content. Note that StreamVC is not open-sourced and requires f0 as input; hence, it is excluded from this comparison. **All the baseline approaches compared here are offline voice conversion methods**, which are not designed for streaming inference.
+In this experiment, speech from VCTK is used as the reference speaker, while speech from LibriTTS serves as the source content. Note that StreamVC is not open-sourced and requires f0 as input; hence, it is excluded from this comparison. **All the baseline approaches compared here are offline voice conversion methods**, which are not designed for streaming inference.
 
 ### Reference Speaker p231
 Reference Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p231_001_002_003.wav" type="audio/wav"> </audio>
