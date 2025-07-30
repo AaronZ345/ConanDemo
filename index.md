@@ -20,7 +20,7 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
       <th style="text-align: center">Source</th>
       <th style="text-align: center">Reference</th>
       <th style="text-align: center">Conan</th>
-      <th style="text-align: center">Conan (fastest)</th>
+      <th style="text-align: center">Conan (fast)</th>
     </tr>
   </thead>
 
@@ -98,7 +98,7 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
       <th style="text-align: center">Source</th>
       <th style="text-align: center">Reference</th>
       <th style="text-align: center">Conan</th>
-      <th style="text-align: center">Conan (fastest)</th>
+      <th style="text-align: center">Conan (fast)</th>
     </tr>
   </thead>
 
@@ -175,7 +175,7 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
       <th style="text-align: center">Source</th>
       <th style="text-align: center">Reference</th>
       <th style="text-align: center">Conan</th>
-      <th style="text-align: center">Conan (fastest)</th>
+      <th style="text-align: center">Conan (fast)</th>
     </tr>
   </thead>
 
@@ -253,7 +253,7 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
       <th style="text-align: center">Source</th>
       <th style="text-align: center">Reference</th>
       <th style="text-align: center">Conan</th>
-      <th style="text-align: center">Conan (fastest)</th>
+      <th style="text-align: center">Conan (fast)</th>
     </tr>
   </thead>
 
@@ -337,7 +337,7 @@ Reference Speech: <audio controls style="width: 30%; margin: 15px 0;"><source sr
 		<tr>
 			<th style="text-align: center">Source</th>
 			<th style="text-align: center">Conan</th>
-			<th style="text-align: center">Conan (fastest)</th>
+			<th style="text-align: center">Conan (fast)</th>
 			<th style="text-align: center">QuickVC</th>
 			<th style="text-align: center">DiffVC</th>
 			<th style="text-align: center">VQMIVC</th>
@@ -366,7 +366,7 @@ Reference Speech: <audio controls style="width: 30%; margin: 15px 0;"><source sr
 		<tr>
 			<th style="text-align: center">Source</th>
 			<th style="text-align: center">Conan</th>
-			<th style="text-align: center">Conan (fastest)</th>
+			<th style="text-align: center">Conan (fast)</th>
 			<th style="text-align: center">QuickVC</th>
 			<th style="text-align: center">DiffVC</th>
 			<th style="text-align: center">VQMIVC</th>
