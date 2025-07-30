@@ -17,7 +17,7 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
 <table>
   <thead>
     <tr>
-      <th style="text-align: center">Target</th>
+      <th style="text-align: center">Source</th>
       <th style="text-align: center">Reference</th>
       <th style="text-align: center">Conan</th>
       <th style="text-align: center">Conan (fastest)</th>
@@ -97,7 +97,7 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
 <table>
   <thead>
     <tr>
-      <th style="text-align: center">Target</th>
+      <th style="text-align: center">Source</th>
       <th style="text-align: center">Reference</th>
       <th style="text-align: center">Conan</th>
       <th style="text-align: center">Conan (fastest)</th>
@@ -176,7 +176,7 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
 <table>
   <thead>
     <tr>
-      <th style="text-align: center">Target</th>
+      <th style="text-align: center">Source</th>
       <th style="text-align: center">Reference</th>
       <th style="text-align: center">Conan</th>
       <th style="text-align: center">Conan (fastest)</th>
@@ -256,7 +256,7 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
 <table>
   <thead>
     <tr>
-      <th style="text-align: center">Target</th>
+      <th style="text-align: center">Source</th>
       <th style="text-align: center">Reference</th>
       <th style="text-align: center">Conan</th>
       <th style="text-align: center">Conan (fastest)</th>
@@ -336,8 +336,8 @@ We then demonstrate the cross-dataset performance of our method. During streamin
 
 In this experiment, speech from VCTK is used as the target speaker, while speech from LibriTTS serves as the source content. Note that StreamVC is not open-sourced and requires f0 as input; hence, it is excluded from this comparison. **All the baseline approaches compared here are offline voice conversion methods**, which are not designed for streaming inference.
 
-### Target Speaker p231
-Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p231_001_002_003.wav" type="audio/wav"> </audio>
+### Reference Speaker p231
+Reference Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p231_001_002_003.wav" type="audio/wav"> </audio>
 
 <ruby>Text: He shrugged his shoulders in ungracious acquiescence, while our visitor in hurried words and with much excitable gesticulation poured forth his story.</ruby>
 <table>
@@ -365,8 +365,8 @@ Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="
 	</tbody>
 </table>
 
-### Target Speaker p360
-Target Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p360_001_002_003.wav" type="audio/wav"> </audio>
+### Reference Speaker p360
+Reference Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p360_001_002_003.wav" type="audio/wav"> </audio>
 
 <ruby>Text: He examines the horizon all round with his glass, and folds his arms with the air of an injured man.</ruby>
 <table>
