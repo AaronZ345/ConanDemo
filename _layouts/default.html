@@ -18,14 +18,27 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <meta name="citation_title" content="Conan: A Chunkwise Online Network for Zero-Shot Adaptive Voice Conversion">
+    <meta name="citation_author" content="Yu Zhang">
+    <meta name="citation_author" content="Baotong Tian">
+    <meta name="citation_author" content="Zhiyao Duan">
+    <meta name="citation_conference_title" content="ASRU 2025">
+    <link rel="stylesheet" href="{{ '/assets/css/publication.css' | relative_url }}">
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-    <header class="page-header" role="banner">
+    <header class="page-header demo-cayman" role="banner">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      <h2 class="project-tagline">{{ site.address1 }}<br>{{ site.address2 }}</h2>
+      <div class="publication-meta">
+        <p class="publication-venue"><a href="https://2025.ieeeasru.org/">ASRU 2025</a></p>
+        <p class="publication-authors"><span class="publication-author"><strong><a href="https://aaronz345.github.io/">Yu Zhang</a></strong>,</span> <span class="publication-author">Baotong Tian,</span> <span class="publication-author">Zhiyao Duan</span></p>
+        <nav class="publication-links" aria-label="Publication resources">
+          <a href="https://doi.org/10.1109/ASRU65441.2025.11434701">Paper</a>
+          <a href="https://arxiv.org/abs/2507.14534">arXiv</a>
+          <a href="https://github.com/User-tian/Conan">Code</a>
+        </nav>
+      </div>
       {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>

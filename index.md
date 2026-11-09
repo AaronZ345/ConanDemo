@@ -27,25 +27,25 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
   <tbody>
     <tr>
       <td rowspan="3" style="text-align: center; vertical-align:middle;">
-        <audio controls style="width: 150px;">   <!-- 90 % looks nice on wide tables -->
+        <audio preload="none" controls style="width: 150px;">   <!-- 90 % looks nice on wide tables -->
           <source src="wavs/Change_Spks/eg1/p226_191_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <!-- Reference #1 -->
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg1/p243_005_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <!-- Conan result #1 -->
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg1/full/p243_005_mic2_p226_191_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <!-- Other model result #1 -->
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg1/fastest/p243_005_mic2_p226_191_mic2.wav" type="audio/wav">
         </audio>
       </td>
@@ -53,17 +53,17 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
     <!-- pair #2 -->
     <tr>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg1/p249_011_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg1/full/p249_011_mic2_p226_191_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg1/fastest/p249_011_mic2_p226_191_mic2.wav" type="audio/wav">
         </audio>
       </td>
@@ -71,17 +71,17 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
     <!-- pair #3 -->
     <tr>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg1/p302_031_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg1/full/p302_031_mic2_p226_191_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg1/fastest/p302_031_mic2_p226_191_mic2.wav" type="audio/wav">
         </audio>
       </td>
@@ -105,25 +105,25 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
   <tbody>
     <tr>
       <td rowspan="3" style="text-align: center; vertical-align:middle;">
-        <audio controls style="width: 150px;">   <!-- 90 % looks nice on wide tables -->
+        <audio preload="none" controls style="width: 150px;">   <!-- 90 % looks nice on wide tables -->
           <source src="wavs/Change_Spks/eg2/target.wav" type="audio/wav">
         </audio>
       </td>
       <!-- Reference #1 -->
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg2/ref1.wav" type="audio/wav">
         </audio>
       </td>
       <!-- Conan result #1 -->
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg2/full/gen1.wav" type="audio/wav">
         </audio>
       </td>
       <!-- Other model result #1 -->
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg2/fastest/gen1.wav" type="audio/wav">
         </audio>
       </td>
@@ -131,17 +131,17 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
     <!-- pair #2 -->
     <tr>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg2/ref2.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg2/full/gen2.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg2/fastest/gen2.wav" type="audio/wav">
         </audio>
       </td>
@@ -149,17 +149,17 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
     <!-- pair #3 -->
     <tr>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg2/ref3.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg2/full/gen3.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg2/fastest/gen3.wav" type="audio/wav">
         </audio>
       </td>
@@ -182,25 +182,25 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
   <tbody>
     <tr>
       <td rowspan="3" style="text-align: center; vertical-align:middle;">
-        <audio controls style="width: 150px;">   <!-- 90 % looks nice on wide tables -->
+        <audio preload="none" controls style="width: 150px;">   <!-- 90 % looks nice on wide tables -->
           <source src="wavs/Change_Spks/eg3/p231_145_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <!-- Reference #1 -->
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg3/p252_109_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <!-- Conan result #1 -->
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg3/full/p252_109_mic2_p231_145_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <!-- Other model result #1 -->
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg3/full/p252_109_mic2_p231_145_mic2.wav" type="audio/wav">
         </audio>
       </td>
@@ -208,17 +208,17 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
     <!-- pair #2 -->
     <tr>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg3/p276_004_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg3/full/p276_004_mic2_p231_145_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg3/fastest/p276_004_mic2_p231_145_mic2.wav" type="audio/wav">
         </audio>
       </td>
@@ -226,17 +226,17 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
     <!-- pair #3 -->
     <tr>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg3/p293_034_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg3/full/p293_034_mic2_p231_145_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg3/fastest/p293_034_mic2_p231_145_mic2.wav" type="audio/wav">
         </audio>
       </td>
@@ -260,25 +260,25 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
   <tbody>
     <tr>
       <td rowspan="3" style="text-align: center; vertical-align:middle;">
-        <audio controls style="width: 150px;">   <!-- 90 % looks nice on wide tables -->
+        <audio preload="none" controls style="width: 150px;">   <!-- 90 % looks nice on wide tables -->
           <source src="wavs/Change_Spks/eg4/p360_057_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <!-- Reference #1 -->
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg4/p288_002_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <!-- Conan result #1 -->
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg4/full/p288_002_mic2_p360_057_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <!-- Other model result #1 -->
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg4/fastest/p288_002_mic2_p360_057_mic2.wav" type="audio/wav">
         </audio>
       </td>
@@ -286,17 +286,17 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
     <!-- pair #2 -->
     <tr>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg4/p303_025_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg4/full/p303_025_mic2_p360_057_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg4/fastest/p303_025_mic2_p360_057_mic2.wav" type="audio/wav">
         </audio>
       </td>
@@ -304,17 +304,17 @@ We first show examples of zero-shot streaming voice conversion on VCTK dataset.
     <!-- pair #3 -->
     <tr>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg4/p339_345_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg4/full/p339_345_mic2_p360_057_mic2.wav" type="audio/wav">
         </audio>
       </td>
       <td style="text-align: center">
-        <audio controls style="width: 150px;">
+        <audio preload="none" controls style="width: 150px;">
           <source src="wavs/Change_Spks/eg4/fastest/p339_345_mic2_p360_057_mic2.wav" type="audio/wav">
         </audio>
       </td>
@@ -329,7 +329,7 @@ We then demonstrate the cross-dataset performance of our method. During streamin
 In this experiment, speech from VCTK is used as the reference speaker, while speech from LibriTTS serves as the source content. Note that StreamVC is not open-sourced and requires f0 as input; hence, it is excluded from this comparison. **All the baseline approaches compared here are offline voice conversion methods**, which are not designed for streaming inference.
 
 ### Reference Speaker p231
-Reference Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p231_001_002_003.wav" type="audio/wav"> </audio>
+Reference Speech: <audio preload="none" controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p231_001_002_003.wav" type="audio/wav"> </audio>
 
 <ruby>Text: He shrugged his shoulders in ungracious acquiescence, while our visitor in hurried words and with much excitable gesticulation poured forth his story.</ruby>
 <table>
@@ -346,19 +346,19 @@ Reference Speech: <audio controls style="width: 30%; margin: 15px 0;"><source sr
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origins/Source_Origin_5.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan/5.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/5.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/QuickVC/5.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/DiffVC/5.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/VQMIVC/5.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p231/PPGVC/5.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio preload="none" controls style="width: 150px;"><source src="wavs/Origins/Source_Origin_5.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio preload="none" controls style="width: 150px;"><source src="wavs/p231/Conan/5.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio preload="none" controls style="width: 150px;"><source src="wavs/p231/Conan_fastest/5.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio preload="none" controls style="width: 150px;"><source src="wavs/p231/QuickVC/5.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio preload="none" controls style="width: 150px;"><source src="wavs/p231/DiffVC/5.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio preload="none" controls style="width: 150px;"><source src="wavs/p231/VQMIVC/5.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio preload="none" controls style="width: 150px;"><source src="wavs/p231/PPGVC/5.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
 
 ### Reference Speaker p360
-Reference Speech: <audio controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p360_001_002_003.wav" type="audio/wav"> </audio>
+Reference Speech: <audio preload="none" controls style="width: 30%; margin: 15px 0;"><source src="wavs/Origins/p360_001_002_003.wav" type="audio/wav"> </audio>
 
 <ruby>Text: He examines the horizon all round with his glass, and folds his arms with the air of an injured man.</ruby>
 <table>
@@ -375,13 +375,13 @@ Reference Speech: <audio controls style="width: 30%; margin: 15px 0;"><source sr
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Origins/Source_Origin_9.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p360/Conan/9.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p360/Conan_fastest/9.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p360/QuickVC/9.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p360/DiffVC/9.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p360/VQMIVC/9.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/p360/PPGVC/9.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio preload="none" controls style="width: 150px;"><source src="wavs/Origins/Source_Origin_9.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio preload="none" controls style="width: 150px;"><source src="wavs/p360/Conan/9.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio preload="none" controls style="width: 150px;"><source src="wavs/p360/Conan_fastest/9.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio preload="none" controls style="width: 150px;"><source src="wavs/p360/QuickVC/9.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio preload="none" controls style="width: 150px;"><source src="wavs/p360/DiffVC/9.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio preload="none" controls style="width: 150px;"><source src="wavs/p360/VQMIVC/9.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio preload="none" controls style="width: 150px;"><source src="wavs/p360/PPGVC/9.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
 </table>
