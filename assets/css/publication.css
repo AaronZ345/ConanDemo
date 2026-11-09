@@ -64,6 +64,15 @@
   border: 1px solid #dce5ee;
   border-radius: .4rem;
 }
+.citation-block pre > code {
+  display: block;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  background: transparent;
+  border: 0;
+  font: inherit;
+}
 .citation-copy {
   color: #245a96;
   background: #fff;
