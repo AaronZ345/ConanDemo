@@ -385,3 +385,20 @@ Reference Speech: <audio preload="none" controls style="width: 30%; margin: 15px
 		</tr>
 	</tbody>
 </table>
+
+# Citation
+
+<div class="citation-block">
+  <button type="button" class="citation-copy">Copy BibTeX</button><span class="citation-status" role="status"></span>
+  <pre><code>@inproceedings{Zhang_2025,
+  title = {Conan: A Chunkwise Online Network for Zero-Shot Adaptive Voice Conversion},
+  url = {http://dx.doi.org/10.1109/ASRU65441.2025.11434701},
+  DOI = {10.1109/asru65441.2025.11434701},
+  booktitle = {2025 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)},
+  publisher = {IEEE},
+  author = {Zhang, Yu and Tian, Baotong and Duan, Zhiyao},
+  year = {2025},
+  month = Dec,
+  pages = {1–8}
+}</code></pre>
+</div>
